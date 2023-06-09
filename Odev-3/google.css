@@ -1,0 +1,112 @@
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    margin-bottom: 180px; /* footer yüksekliğinden fazla olması gerekir. */
+}
+
+.header{
+    list-style-type: none;
+    color: black;
+    width: auto;
+    height: 150px;
+    font-family: Arial;
+
+}
+.header li a{
+    color: black;
+    float: right;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right:10px;
+    
+    
+
+}
+.header li img{
+    width: 18px;
+    margin-right: 17px;
+    float: right;
+    margin-top: 10px;
+    
+}
+.container{
+    text-align: center;
+    height: 150px;
+    
+}
+.container-2{
+    text-align: center;
+    
+}
+.search{
+    width:480px;
+    border-radius:20px;
+    border: 1px solid rgb(206, 202, 202);
+    height: 35px;
+    background-color: white;
+    background-image: url('assets/voicelogo.png');
+    background-position: 10px 5px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    font-size: 14px;
+
+}
+.search:hover{
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.24), 0 2px 5px 0 rgba(0,0,0,0.19);
+    border: 0;
+}
+.buttons{
+    text-align: center;
+    height: 200px;
+
+    
+}
+
+.google-buttons{
+    width: 150px;
+    height: 36px;
+    margin-top: 50px;
+    margin-right: 50px;
+    border-radius: 1px solid #f2f2f2;
+    font-size: 14px;
+    font-family: Arial;
+    color:#5f6368;
+    
+    
+}
+.google-buttons:hover{
+    border: 0;
+
+}
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    min-height: 30px; /* değişebilir */
+    width: 100%;
+    overflow:hidden;
+    background-color: #f2f2f2;
+    border-top: 1px solid rgb(206, 202, 202);
+    
+}
+.footer ul{
+    list-style-type: none;
+    margin-left: 10px;
+    
+}
+.footer ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-size: 14px;
+    
+}
+
+    
+
